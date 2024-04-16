@@ -1,0 +1,26 @@
+@import './base.css';
+
+@font-face {
+  font-family: futuristic;
+  src: url('./fonts/VeniteAdoremusStraight-Yzo6v.ttf');
+}
+@keyframes imagePulse {
+  0%{
+      background-color: #232323;
+  }
+  50%{
+      background-color: #232323d0;
+  }
+  100%{
+      background-color: #232323;
+  }
+}
+
+body{
+  scroll-behavior: smooth;
+  background: rgb(35,35,35);
+  background: linear-gradient(180deg, rgba(35,35,35,1) 80%, rgba(0,0,0,1) 100%);
+}
+.yg-main{
+  color: #F35B00;
+}
