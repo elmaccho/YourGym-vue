@@ -24,3 +24,59 @@ body{
 .yg-main{
   color: #F35B00;
 }
+.yg-btn{
+  text-decoration: none;
+  color: white !important;
+  padding: 8px 20px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.yg-btn::before{
+  background-color: #F35B00;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  right: 5px;
+  z-index: -1;
+  transition: 0.3s;
+}
+.yg-btn::after{
+  content: '';
+  border: 2px solid #c94e06;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  transition: 0.3s;
+  z-index: -2;
+}
+.yg-btn:hover::after{
+  top: 5px;
+  right: 5px;
+}
+.yg-btn:hover::before{
+  top: 0px;
+  right: 0px;
+}
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #232323 !important; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F35B00; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c94e06; 
+}

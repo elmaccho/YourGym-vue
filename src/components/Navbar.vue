@@ -6,11 +6,10 @@ const toggleMenu = () => {
     isActive.value = !isActive.value;
 }
 
-// Importowanie ikon Font Awesome
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
 </script>
-
 <template>
     <button class="open-navbar-btn" @click="toggleMenu">
         <FontAwesomeIcon :icon="faBars"/>
