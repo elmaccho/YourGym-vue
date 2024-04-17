@@ -75,7 +75,7 @@ import SupportIcon from './icons/IconSupport.vue'
     twitter account for latest news in the Vue world.
   </WelcomeItem>
 
-  <!-- <WelcomeItem>
+  <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
@@ -84,5 +84,5 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem> -->
+  </WelcomeItem>
 </template>

@@ -1,0 +1,3 @@
+<template>
+    silownia view
+</template>

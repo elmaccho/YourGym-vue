@@ -11,58 +11,58 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
 </script>
 <template>
-    <button class="open-navbar-btn" @click="toggleMenu">
-        <FontAwesomeIcon :icon="faBars"/>
-    </button>
-    <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive }">
-        <div class="navbar-content">
-            <button class="close-navbar-btn" @click="toggleMenu">
-                <FontAwesomeIcon :icon="faXmark"/>
-            </button>
-            <a class="navbar-brand" href="#header">
-                <h2 class="brand-name">YourGym</h2>
-            </a>
-            <ul class="navbar-links">
-                <li class="dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Nasze Kluby
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#gdansk">Gdańsk</a></li>
-                        <li><a class="dropdown-item" href="#olsztyn">Olsztyn</a></li>
-                        <li><a class="dropdown-item" href="#szczecin">Szczecin</a></li>
-                        <li><a class="dropdown-item" href="#bydgoszcz">Bydgoszcz</a></li>
-                        <li><a class="dropdown-item" href="#torun">Toruń</a></li>
-                        <li><a class="dropdown-item" href="#bialystok">Białystok</a></li>
-                        <li><a class="dropdown-item" href="#poznan">Poznań</a></li>
-                        <li><a class="dropdown-item" href="#warszawa">Warszawa</a></li>
-                        <li><a class="dropdown-item" href="#lodz">Łódź</a></li>
-                        <li><a class="dropdown-item" href="#lublin">Lublin</a></li>
-                        <li><a class="dropdown-item" href="#wroclaw">Wrocław</a></li>
-                        <li><a class="dropdown-item" href="#kielce">Kielce</a></li>
-                        <li><a class="dropdown-item" href="#katowice">Katowice</a></li>
-                        <li><a class="dropdown-item" href="#rzeszow">Rzeszów</a></li>
-                        <li><a class="dropdown-item" href="#krakow">Kraków</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item close-item">
-                    <a class="nav-link" href="#about">O nas</a>
-                </li>
-                <li class="nav-item close-item">
-                    <a class="nav-link" href="#offert">Oferta</a>
-                </li>
-                <li class="nav-item close-item">
-                    <a class="nav-link" href="#tickets">Karnety</a>
-                </li>
-                <li class="nav-item close-item">
-                    <a class="nav-link" href="#contact">Kontakt</a>
-                </li>
-                <li class="nav-link">
-                    <a class="yg-btn" href="#login">Logowanie</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <button class="open-navbar-btn" @click="toggleMenu">
+            <FontAwesomeIcon :icon="faBars"/>
+        </button>
+        <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive }">
+            <div class="navbar-content">
+                <button class="close-navbar-btn" @click="toggleMenu">
+                    <FontAwesomeIcon :icon="faXmark"/>
+                </button>
+                <a class="navbar-brand" href="#header">
+                    <h2 class="brand-name">YourGym</h2>
+                </a>
+                <ul class="navbar-links">
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nasze Kluby
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#gdansk">Gdańsk</a></li>
+                            <li><a class="dropdown-item" href="#olsztyn">Olsztyn</a></li>
+                            <li><a class="dropdown-item" href="#szczecin">Szczecin</a></li>
+                            <li><a class="dropdown-item" href="#bydgoszcz">Bydgoszcz</a></li>
+                            <li><a class="dropdown-item" href="#torun">Toruń</a></li>
+                            <li><a class="dropdown-item" href="#bialystok">Białystok</a></li>
+                            <li><a class="dropdown-item" href="#poznan">Poznań</a></li>
+                            <li><a class="dropdown-item" href="#warszawa">Warszawa</a></li>
+                            <li><a class="dropdown-item" href="#lodz">Łódź</a></li>
+                            <li><a class="dropdown-item" href="#lublin">Lublin</a></li>
+                            <li><a class="dropdown-item" href="#wroclaw">Wrocław</a></li>
+                            <li><a class="dropdown-item" href="#kielce">Kielce</a></li>
+                            <li><a class="dropdown-item" href="#katowice">Katowice</a></li>
+                            <li><a class="dropdown-item" href="#rzeszow">Rzeszów</a></li>
+                            <li><a class="dropdown-item" href="#krakow">Kraków</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item close-item">
+                        <a class="nav-link" href="#about">O nas</a>
+                    </li>
+                    <li class="nav-item close-item">
+                        <a class="nav-link" href="#offert">Oferta</a>
+                    </li>
+                    <li class="nav-item close-item">
+                        <a class="nav-link" href="#tickets">Karnety</a>
+                    </li>
+                    <li class="nav-item close-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="yg-btn" href="#login">Logowanie</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 </template>
 <style scoped>
     .close-navbar-btn,

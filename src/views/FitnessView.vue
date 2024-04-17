@@ -1,0 +1,3 @@
+<template>
+    fitness view
+</template>
