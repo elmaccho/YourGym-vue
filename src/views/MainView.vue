@@ -10,7 +10,7 @@
         <Header />
     </header>
     <main>
-        <Offert />
+        <Offert id="offert"/>
     </main>
 </template>
 <style scoped>

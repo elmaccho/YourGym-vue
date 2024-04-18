@@ -1,8 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainView from '@/views/MainView.vue'
 import OffertView from '@/views/OffertView.vue'
-import SilowniaView from '@/views/SilowniaView.vue'
-import FitnessView from '@/views/FitnessView.vue'
+import SilowniaView from '@/views/offert/SilowniaView.vue'
+import FitnessView from '@/views/offert/FitnessView.vue'
+import SquashView from '@/views/offert/SquashView.vue'
+import IndoorCyclingView from '@/views/offert/IndoorCyclingView.vue'
+import RelaxZoneView from '@/views/offert/RelaxZoneView.vue'
+import FiftyPlusView from '@/views/offert/FiftyPlusView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,7 +29,8 @@ const router = createRouter({
       children: [
         {
           path: '',
-          component: () => import('../views/OffertView.vue'),
+          // component: () => import('../views/offert/OffertView.vue'),
+          component: MainView
         },
         {
           path: 'silownia',
@@ -36,6 +41,26 @@ const router = createRouter({
           path: 'fitness',
           name: 'fitness',
           component: FitnessView
+        },
+        {
+          path: 'squash',
+          name: 'squash',
+          component: SquashView
+        },
+        {
+          path: 'indoorCycling',
+          name: 'indoorCycling',
+          component: IndoorCyclingView
+        },
+        {
+          path: 'strefaRelaksu',
+          name: 'relaxZone',
+          component: RelaxZoneView
+        },
+        {
+          path: '50+',
+          name: 'fiftyPlus',
+          component: FiftyPlusView
         }
       ]
     }

@@ -37,7 +37,7 @@
                 <h3 class="yg-card-title">Squash</h3>
                 <p class="yg-card-description">Tenis innaczej. Ekskluzywny sport na wyciągnięcie rakiety!</p>
 
-                <a href="#" class="text-decoration-none read-more">Czytaj więcej</a>
+                <router-link to="/oferta/squash" class="text-decoration-none read-more">Czytaj więcej</router-link>
             </div>
         </div>
         <div class="yg-card">
@@ -49,7 +49,7 @@
                 <h3 class="yg-card-title">Indoor cycling</h3>
                 <p class="yg-card-description">Czyli jazda na specjalnym rowerze stacjonarnym lub trenażerze</p>
 
-                <a href="#" class="text-decoration-none read-more">Czytaj więcej</a>
+                <router-link to="/oferta/indoorCycling" class="text-decoration-none read-more">Czytaj więcej</router-link>
             </div>
         </div>
         <div class="yg-card">
@@ -61,7 +61,7 @@
                 <h3 class="yg-card-title">Strefa Relaksu</h3>
                 <p class="yg-card-description">Odpoczynek połączony z relaksem w świetnej aranżacji</p>
 
-                <a href="#" class="text-decoration-none read-more">Czytaj więcej</a>
+                <router-link to="/oferta/strefaRelaksu" class="text-decoration-none read-more">Czytaj więcej</router-link>
             </div>
         </div>
         <div class="yg-card">
@@ -73,7 +73,7 @@
                 <h3 class="yg-card-title">50+</h3>
                 <p class="yg-card-description">Bądź aktywny i szczęśliwy po 50-tce!</p>
 
-                <a href="#" class="text-decoration-none read-more">Czytaj więcej</a>
+                <router-link to="/oferta/50+" class="text-decoration-none read-more">Czytaj więcej</router-link>
             </div>
         </div>
     </div>
