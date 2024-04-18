@@ -2,6 +2,7 @@
     import Navbar from '@/components/Navbar.vue';
     import Header from '@/components/Header.vue';
     import Offert from '@/components/Offert.vue';
+    import Clubs from '@/components/Clubs.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@
         <Header />
     </header>
     <main>
+        <Clubs id="clubs"/>
         <Offert id="offert"/>
     </main>
 </template>
@@ -32,5 +34,5 @@
             justify-content: center;
             align-content: center;
         }
-      }
+    }
 </style>

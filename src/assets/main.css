@@ -1,9 +1,20 @@
 @import './base.css';
 
 @font-face {
-  font-family: futuristic;
-  src: url('./fonts/VeniteAdoremusStraight-Yzo6v.ttf');
-}
+  font-family: 'Venite Adoremus Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Venite Adoremus Regular'), url('@\fonts\VeniteAdoremus-rgRBA.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Venite Adoremus Straight Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Venite Adoremus Straight Regular'), url('public\fonts\VeniteAdoremusStraight-Yzo6v.woff') format('woff');
+  }
+
 @keyframes imagePulse {
   0%{
       background-color: #232323;
@@ -19,7 +30,7 @@
 body{
   scroll-behavior: smooth;
   background: rgb(35,35,35);
-  background: linear-gradient(180deg, rgba(35,35,35,1) 80%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgb(19, 19, 19) 80%, rgba(0,0,0,1) 100%);
 }
 .yg-main{
   color: #F35B00;
