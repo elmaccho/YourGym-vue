@@ -5,6 +5,7 @@
     import Clubs from '@/components/Clubs.vue';
     import About from '@/components/About.vue';
     import Tickets from '@/components/Tickets.vue';
+    import Gallery from '@/components/Gallery.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@
         <About id="about"/>
         <Offert id="offert"/>
         <Tickets id="tickets"/>
+        <Gallery />
     </main>
 </template>
 <style scoped>
