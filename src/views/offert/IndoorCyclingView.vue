@@ -1,5 +1,7 @@
 <script setup>
     import ReturnNavbar from '@/components/ReturnNavbar.vue';
+    import Footer from '@/components/Footer.vue';
+
 </script>
 <template>
     <ReturnNavbar />
@@ -29,6 +31,7 @@
             </div>
         </div>
     </div>
+    <Footer/>
 </template>
 <style scoped>
     .main-content{

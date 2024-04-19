@@ -1,9 +1,10 @@
 <script setup>
     import ReturnNavbar from '@/components/ReturnNavbar.vue';
+    import Footer from '@/components/Footer.vue';
 </script>
 <template>
     <ReturnNavbar />
-    <div class="p-3">
+    <div class="p-3 mb-5">
         <div class="main-content">
             <div class="image-container">
                 <img class="offert-img" src="@\assets\img\offert\5d4ac0ab914e9.webp" alt="">
@@ -40,6 +41,7 @@
             </div>
         </div>
     </div>
+    <Footer/>
 </template>
 <style scoped>
     .main-content{
