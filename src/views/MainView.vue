@@ -7,6 +7,7 @@
     import Tickets from '@/components/Tickets.vue';
     import Gallery from '@/components/Gallery.vue';
     import Contact from '../components/Contact.vue';
+    import Footer from '@/components/Footer.vue';
 </script>
 
 <template>
@@ -22,6 +23,9 @@
         <Gallery />
         <Contact />
     </main>
+    <footer>
+        <Footer />
+    </footer>
 </template>
 <style scoped>
 
