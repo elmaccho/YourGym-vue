@@ -48,8 +48,9 @@
         max-width: 550px;
     }
     .title > h2{
-        font-size: 80px;
+        font-size: 70px;
         color: white;
+        font-family: Venite Adoremus Regular;
     }
     .description > p {
         color: white;

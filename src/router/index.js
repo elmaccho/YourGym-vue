@@ -7,6 +7,10 @@ import SquashView from '@/views/offert/SquashView.vue'
 import IndoorCyclingView from '@/views/offert/IndoorCyclingView.vue'
 import RelaxZoneView from '@/views/offert/RelaxZoneView.vue'
 import FiftyPlusView from '@/views/offert/FiftyPlusView.vue'
+import TicketMorning from '@/views/tickets/Morning.vue'
+import TicketOpen from '@/views/tickets/Open.vue'
+import TicketFree from '@/views/tickets/Free.vue'
+import Purchase from '@/views/purchase/Purchase.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +67,36 @@ const router = createRouter({
           component: FiftyPlusView
         }
       ]
+    },
+    {
+      path: '/karnety',
+      children: [
+        {
+          path: '',
+          // component: () => import('../views/offert/OffertView.vue'),
+          component: MainView
+        },
+        {
+          path: 'karnetRano',
+          name: 'morning',
+          component: TicketMorning
+        },
+        {
+          path: 'karnetOpen',
+          name: 'open',
+          component: TicketOpen
+        },
+        {
+          path: 'karnetFree',
+          name: 'free',
+          component: TicketFree
+        }
+      ]
+    },
+    {
+      path: '/zakup',
+      name: 'purchase',
+      component: Purchase
     }
   ]
 })

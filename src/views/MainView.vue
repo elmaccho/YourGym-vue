@@ -4,6 +4,7 @@
     import Offert from '@/components/Offert.vue';
     import Clubs from '@/components/Clubs.vue';
     import About from '@/components/About.vue';
+    import Tickets from '@/components/Tickets.vue';
 </script>
 
 <template>
@@ -15,9 +16,13 @@
         <Clubs id="clubs"/>
         <About id="about"/>
         <Offert id="offert"/>
+        <Tickets id="tickets"/>
     </main>
 </template>
 <style scoped>
+
+    /* DO WYRZUCENIA */
+
     .header{
         display: block;
         height: 90vh;
