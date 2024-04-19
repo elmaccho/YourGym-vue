@@ -1,6 +1,3 @@
-<script setup>
-
-</script>
 <template>
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">

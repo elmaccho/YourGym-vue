@@ -6,6 +6,7 @@
     import About from '@/components/About.vue';
     import Tickets from '@/components/Tickets.vue';
     import Gallery from '@/components/Gallery.vue';
+    import Contact from '../components/Contact.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@
         <Offert id="offert"/>
         <Tickets id="tickets"/>
         <Gallery />
+        <Contact />
     </main>
 </template>
 <style scoped>
