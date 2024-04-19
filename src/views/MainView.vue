@@ -3,6 +3,7 @@
     import Header from '@/components/Header.vue';
     import Offert from '@/components/Offert.vue';
     import Clubs from '@/components/Clubs.vue';
+    import About from '@/components/About.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@
     </header>
     <main>
         <Clubs id="clubs"/>
+        <About id="about"/>
         <Offert id="offert"/>
     </main>
 </template>
