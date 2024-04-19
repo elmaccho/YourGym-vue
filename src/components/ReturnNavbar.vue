@@ -1,11 +1,22 @@
 <script setup>
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 const isActive = ref(false);
 
 const toggleMenu = () => {
     isActive.value = !isActive.value;
 }
+const handleClickOutside = (e) => {
+    const navbar = document.querySelector('.yg-navbar');
+    const openNavbarBtn = document.querySelector('.open-navbar-btn');
 
+    if(navbar && !navbar.contains(e.target) && !openNavbarBtn.contains(e.target)){
+        isActive.value = false;
+    }
+}
+
+onMounted(() => {
+    document.addEventListener('click', handleClickOutside)
+})
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
