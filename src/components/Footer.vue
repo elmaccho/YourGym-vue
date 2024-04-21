@@ -41,7 +41,7 @@
         flex-direction: column;
 
         background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,35,1) 100%);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,35,35,1) 100%);
     }
     .footer-content{
         display: flex;
