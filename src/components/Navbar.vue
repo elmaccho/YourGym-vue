@@ -46,21 +46,21 @@ import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
                             Nasze Kluby
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="#gdansk">Gdańsk</a></li>
-                            <li><a class="dropdown-item" href="#olsztyn">Olsztyn</a></li>
-                            <li><a class="dropdown-item" href="#szczecin">Szczecin</a></li>
-                            <li><a class="dropdown-item" href="#bydgoszcz">Bydgoszcz</a></li>
-                            <li><a class="dropdown-item" href="#torun">Toruń</a></li>
-                            <li><a class="dropdown-item" href="#bialystok">Białystok</a></li>
-                            <li><a class="dropdown-item" href="#poznan">Poznań</a></li>
-                            <li><a class="dropdown-item" href="#warszawa">Warszawa</a></li>
-                            <li><a class="dropdown-item" href="#lodz">Łódź</a></li>
-                            <li><a class="dropdown-item" href="#lublin">Lublin</a></li>
-                            <li><a class="dropdown-item" href="#wroclaw">Wrocław</a></li>
-                            <li><a class="dropdown-item" href="#kielce">Kielce</a></li>
-                            <li><a class="dropdown-item" href="#katowice">Katowice</a></li>
-                            <li><a class="dropdown-item" href="#rzeszow">Rzeszów</a></li>
-                            <li><a class="dropdown-item" href="#krakow">Kraków</a></li>
+                            <li><router-link to="/kluby/gdansk" class="dropdown-item">Gdańsk</router-link></li>
+                            <li><router-link to="/kluby/olsztyn" class="dropdown-item">Olsztyn</router-link></li>
+                            <li><router-link to="/kluby/szczecin" class="dropdown-item">Szczecin</router-link></li>
+                            <li><router-link to="/kluby/bydgoszcz" class="dropdown-item">Bydgoszcz</router-link></li>
+                            <li><router-link to="/kluby/torun" class="dropdown-item">Toruń</router-link></li>
+                            <li><router-link to="/kluby/bialystok" class="dropdown-item">Białystok</router-link></li>
+                            <li><router-link to="/kluby/poznan" class="dropdown-item">Poznań</router-link></li>
+                            <li><router-link to="/kluby/warszawa" class="dropdown-item">Warszawa</router-link></li>
+                            <li><router-link to="/kluby/lodz" class="dropdown-item">Łódź</router-link></li>
+                            <li><router-link to="/kluby/lublin" class="dropdown-item">Lublin</router-link></li>
+                            <li><router-link to="/kluby/wroclaw" class="dropdown-item">Wrocław</router-link></li>
+                            <li><router-link to="/kluby/kielce" class="dropdown-item">Kielce</router-link></li>
+                            <li><router-link to="/kluby/katowice" class="dropdown-item">Katowice</router-link></li>
+                            <li><router-link to="/kluby/rzeszow" class="dropdown-item">Rzeszów</router-link></li>
+                            <li><router-link to="/kluby/krakow" class="dropdown-item">Kraków</router-link></li>
                         </ul>
                     </li>
                     <li class="nav-item close-item">
