@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 <template>
     <div class="about-container">
         <div class="image-container">
@@ -30,14 +28,14 @@
     }
     .image-container{
         position: relative;
-        width: 450px;
+        width: 600px;
     }
     .about-image{
-        width: 450px;
+        width: 600px;
         position: relative;
     }
     .about-waves{
-        width: 450px;
+        width: 600px;
         height: 300px;
         position: absolute;
         right: -50px;
@@ -56,7 +54,11 @@
         color: white;
         font-size: 20px;
     }
-
+    @media screen and (max-width: 1200px) {
+        .image-container, .about-image, .about-waves{
+            width: 450px;
+        }
+    }
     @media screen and (max-width: 960px) {
         .about-container{
             flex-direction: column;

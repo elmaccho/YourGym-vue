@@ -80,12 +80,15 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
     </div>
 </template>
 <style scoped>
+.clubs-wrapper{
+    padding: 50px;
+}
 .map-wrapper{
     position: relative;
     z-index: 1;
     width: max-content;
     left: 55%;
-    transform: translateX(-60%);
+    transform: translateX(-60%) scale(1.2);
 }
 .map{
     height: 570px;
@@ -280,9 +283,20 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 }
 .gymgirl{
     position: absolute;
-    width: 400px;
+    width: 500px;
     top: 0;
-    right: 0;
+    right: 35px;
+}
+@media screen and (max-width: 1412px) {
+    .gymgirl{
+        width: 400px;
+    }
+    .map-wrapper{
+        transform: translateX(-60%);
+    }
+    .clubs-wrapper{
+        padding: 0;
+    }
 }
 @media screen and (max-width: 1385px){
     .map-location{
