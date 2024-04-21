@@ -1,31 +1,41 @@
 <script setup>
-import { onMounted, ref } from 'vue';
-const isActive = ref(false);
+    import { onMounted, ref } from 'vue';
+    const isActive = ref(false);
+    const scrolledDown = ref(false);
 
-const toggleMenu = () => {
-    isActive.value = !isActive.value;
-}
-const handleClickOutside = (e) => {
-    const navbar = document.querySelector('.yg-navbar');
-    const openNavbarBtn = document.querySelector('.open-navbar-btn');
-
-    if(navbar && !navbar.contains(e.target) && !openNavbarBtn.contains(e.target)){
-        isActive.value = false;
+    const toggleMenu = () => {
+        isActive.value = !isActive.value;
     }
-}
+    const handleClickOutside = (e) => {
+        const navbar = document.querySelector('.yg-navbar');
+        const openNavbarBtn = document.querySelector('.open-navbar-btn');
 
-onMounted(() => {
-    document.addEventListener('click', handleClickOutside)
-})
+        if(navbar && !navbar.contains(e.target) && !openNavbarBtn.contains(e.target)){
+            isActive.value = false;
+        }
+    }
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
+    const HandleScroll = () => {
+        if(window.scrollY > 50){
+            scrolledDown.value = true;
+        } else {
+            scrolledDown.value = false;
+        }
+    }
+
+    onMounted(() => {
+        document.addEventListener('click', handleClickOutside)
+        document.addEventListener('scroll', HandleScroll)
+    })
+
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+    import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
 </script>
 <template>
         <button class="open-navbar-btn" @click="toggleMenu">
             <FontAwesomeIcon :icon="faBars"/>
         </button>
-        <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive }">
+        <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive, 'sticky' : scrolledDown }">
             <div class="navbar-content">
                 <button class="close-navbar-btn" @click="toggleMenu">
                     <FontAwesomeIcon :icon="faXmark"/>

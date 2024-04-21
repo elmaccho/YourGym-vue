@@ -1,86 +1,114 @@
 <script setup>
-import { onMounted, ref } from 'vue';
-const isActive = ref(false);
+    import { onMounted, ref } from 'vue';
+    const isActive = ref(false);
+    const scrolledDown = ref(false);
+    const activeSection = ref('');
 
-const toggleMenu = () => {
-    isActive.value = !isActive.value;
-}
-const handleClickOutside = (e) => {
-    const navbar = document.querySelector('.yg-navbar');
-    const openNavbarBtn = document.querySelector('.open-navbar-btn');
-    const closeItems = document.querySelectorAll('.close-item');
-
-    if(navbar && !navbar.contains(e.target) && !openNavbarBtn.contains(e.target)){
-        isActive.value = false;
+    const toggleMenu = () => {
+        isActive.value = !isActive.value;
     }
-    
-    for (const closeItem of closeItems) {
-        if(closeItem.contains(e.target)){
+    const handleClickOutside = (e) => {
+        const navbar = document.querySelector('.yg-navbar');
+        const openNavbarBtn = document.querySelector('.open-navbar-btn');
+        const closeItems = document.querySelectorAll('.close-item');
+
+        if(navbar && !navbar.contains(e.target) && !openNavbarBtn.contains(e.target)){
             isActive.value = false;
         }
+        
+        for (const closeItem of closeItems) {
+            if(closeItem.contains(e.target)){
+                isActive.value = false;
+            }
+        }
     }
-}
+    const handleScroll = () => {
+        if(window.scrollY > 50){
+            scrolledDown.value = true;
+        } else {
+            scrolledDown.value = false;
+        }
+    }
+    const handleScrollHighlight = () => {
+    const sections = ['about', 'offert', 'tickets', 'contact'];
 
-onMounted(() => {
-    document.addEventListener('click', handleClickOutside)
-})
+    const currentSection = sections.find(section => {
+        const element = document.getElementById(section);
+        if (element) {
+        const rect = element.getBoundingClientRect();
+        return rect.top <= 100 && rect.bottom >= 100;
+        }
+        return false;
+    });
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
+        if (currentSection !== activeSection.value) {
+            activeSection.value = currentSection;
+        }
+    };
+    
+
+    onMounted(() => {
+        document.addEventListener('click', handleClickOutside)
+        document.addEventListener('scroll', handleScroll)
+        window.addEventListener('scroll', handleScrollHighlight)
+    })
+
+    import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+    import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons';
 </script>
 <template>
-        <button class="open-navbar-btn" @click="toggleMenu">
-            <FontAwesomeIcon :icon="faBars"/>
-        </button>
-        <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive }">
-            <div class="navbar-content">
-                <button class="close-navbar-btn" @click="toggleMenu">
-                    <FontAwesomeIcon :icon="faXmark"/>
-                </button>
-                <a class="navbar-brand" href="#header">
-                    <h2 class="brand-name">YourGym</h2>
-                </a>
-                <ul class="navbar-links">
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Nasze Kluby
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><router-link to="/kluby/gdansk" class="dropdown-item">Gdańsk</router-link></li>
-                            <li><router-link to="/kluby/olsztyn" class="dropdown-item">Olsztyn</router-link></li>
-                            <li><router-link to="/kluby/szczecin" class="dropdown-item">Szczecin</router-link></li>
-                            <li><router-link to="/kluby/bydgoszcz" class="dropdown-item">Bydgoszcz</router-link></li>
-                            <li><router-link to="/kluby/torun" class="dropdown-item">Toruń</router-link></li>
-                            <li><router-link to="/kluby/bialystok" class="dropdown-item">Białystok</router-link></li>
-                            <li><router-link to="/kluby/poznan" class="dropdown-item">Poznań</router-link></li>
-                            <li><router-link to="/kluby/warszawa" class="dropdown-item">Warszawa</router-link></li>
-                            <li><router-link to="/kluby/lodz" class="dropdown-item">Łódź</router-link></li>
-                            <li><router-link to="/kluby/lublin" class="dropdown-item">Lublin</router-link></li>
-                            <li><router-link to="/kluby/wroclaw" class="dropdown-item">Wrocław</router-link></li>
-                            <li><router-link to="/kluby/kielce" class="dropdown-item">Kielce</router-link></li>
-                            <li><router-link to="/kluby/katowice" class="dropdown-item">Katowice</router-link></li>
-                            <li><router-link to="/kluby/rzeszow" class="dropdown-item">Rzeszów</router-link></li>
-                            <li><router-link to="/kluby/krakow" class="dropdown-item">Kraków</router-link></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item close-item">
-                        <a class="nav-link" href="#about">O nas</a>
-                    </li>
-                    <li class="nav-item close-item">
-                        <a class="nav-link" href="#offert">Oferta</a>
-                    </li>
-                    <li class="nav-item close-item">
-                        <a class="nav-link" href="#tickets">Karnety</a>
-                    </li>
-                    <li class="nav-item close-item">
-                        <a class="nav-link" href="#contact">Kontakt</a>
-                    </li>
-                    <li class="nav-link">
-                        <a class="yg-btn" href="#login">Logowanie</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <button class="open-navbar-btn" @click="toggleMenu">
+        <FontAwesomeIcon :icon="faBars"/>
+    </button>
+    <nav class="yg-navbar" :class="{ 'navbar-toggle' : isActive, 'sticky' : scrolledDown }">
+        <div class="navbar-content">
+            <button class="close-navbar-btn" @click="toggleMenu">
+                <FontAwesomeIcon :icon="faXmark"/>
+            </button>
+            <a class="navbar-brand" href="#header">
+                <h2 class="brand-name">YourGym</h2>
+            </a>
+            <ul class="navbar-links">
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Nasze Kluby
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><router-link to="/kluby/gdansk" class="dropdown-item">Gdańsk</router-link></li>
+                        <li><router-link to="/kluby/olsztyn" class="dropdown-item">Olsztyn</router-link></li>
+                        <li><router-link to="/kluby/szczecin" class="dropdown-item">Szczecin</router-link></li>
+                        <li><router-link to="/kluby/bydgoszcz" class="dropdown-item">Bydgoszcz</router-link></li>
+                        <li><router-link to="/kluby/torun" class="dropdown-item">Toruń</router-link></li>
+                        <li><router-link to="/kluby/bialystok" class="dropdown-item">Białystok</router-link></li>
+                        <li><router-link to="/kluby/poznan" class="dropdown-item">Poznań</router-link></li>
+                        <li><router-link to="/kluby/warszawa" class="dropdown-item">Warszawa</router-link></li>
+                        <li><router-link to="/kluby/lodz" class="dropdown-item">Łódź</router-link></li>
+                        <li><router-link to="/kluby/lublin" class="dropdown-item">Lublin</router-link></li>
+                        <li><router-link to="/kluby/wroclaw" class="dropdown-item">Wrocław</router-link></li>
+                        <li><router-link to="/kluby/kielce" class="dropdown-item">Kielce</router-link></li>
+                        <li><router-link to="/kluby/katowice" class="dropdown-item">Katowice</router-link></li>
+                        <li><router-link to="/kluby/rzeszow" class="dropdown-item">Rzeszów</router-link></li>
+                        <li><router-link to="/kluby/krakow" class="dropdown-item">Kraków</router-link></li>
+                    </ul>
+                </li>
+                <li class="nav-item close-item">
+                    <a class="nav-link" :class="{ active: activeSection === 'about' }" href="#about">O nas</a>
+                </li>
+                <li class="nav-item close-item">
+                    <a class="nav-link" :class="{ active: activeSection === 'offert' }" href="#offert">Oferta</a>
+                </li>
+                <li class="nav-item close-item">
+                    <a class="nav-link" :class="{ active: activeSection === 'tickets' }" href="#tickets">Karnety</a>
+                </li>
+                <li class="nav-item close-item">
+                    <a class="nav-link" :class="{ active: activeSection === 'contact' }" href="#contact">Kontakt</a>
+                </li>
+                <li class="nav-link">
+                    <a class="yg-btn" href="#login">Logowanie</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </template>
 <style scoped>
     .close-navbar-btn,
