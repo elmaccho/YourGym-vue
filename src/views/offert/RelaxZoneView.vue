@@ -7,9 +7,9 @@
     <div class="p-3">
         <div class="main-content">
             <div class="image-container">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-anete-lusina-5240640.jpg" alt="">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-heyho-8092430.jpg" alt="">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-ron-lach-9165662.jpg" alt="">
+                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-anete-lusina-5240640.webp" alt="">
+                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-heyho-8092430.webp" alt="">
+                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-ron-lach-9165662.webp" alt="">
             </div>
             <div class="text-container">
                 <h1 class="title-page">

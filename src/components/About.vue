@@ -2,7 +2,7 @@
 <template>
     <div class="about-container">
         <div class="image-container">
-            <img class="about-image" src="@\assets\img\about\pexels-andres-ayrton-6551074 (1).jpg" alt="about us image">
+            <img class="about-image" src="@\assets\img\about\pexels-andres-ayrton-6551074-_1_.webp" alt="about us image">
             <img class="about-waves" src="@\assets\img\about\waves_dark.svg" alt="waves svg">
         </div>
         <div class="text-container">

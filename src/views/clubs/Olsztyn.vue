@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="background-photo">
-            <img class="main-image" src="@\assets\img\clubs\olsztyn-35.jpg" alt="">
+            <img class="main-image" src="@\assets\img\clubs\olsztyn-35.webp" alt="">
             <img class="bg-image" src="@\assets\img\clubs\waves_dark.svg" alt="">
         </div>
     </div>

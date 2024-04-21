@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="background-photo">
-            <img class="main-image" src="@\assets\img\clubs\old-town-5062333_1920.jpg" alt="">
+            <img class="main-image" src="@\assets\img\clubs\old-town-5062333_1920.webp" alt="">
             <img class="bg-image" src="@\assets\img\clubs\waves_dark.svg" alt="">
         </div>
     </div>

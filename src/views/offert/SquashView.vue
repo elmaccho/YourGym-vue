@@ -7,7 +7,7 @@
     <div class="p-3">
         <div class="main-content">
             <div class="image-container">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-artempodrez-7648096.jpg" alt="">
+                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-artempodrez-7648096.webp" alt="">
             </div>
             <div class="text-container">
                 <h1 class="title-page">

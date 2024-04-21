@@ -27,105 +27,105 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="@\assets\img\clubs\gdansk-1044857_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\gdansk-1044857_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Gdansk</h5>
                     <router-link to="/kluby/gdansk" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\olsztyn-35.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\olsztyn-35.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Olsztyn</h5>
                     <router-link to="/kluby/olsztyn" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\szczecin-456750_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\szczecin-456750_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Szczecin</h5>
                     <router-link to="/kluby/szczecin" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\bydgoszcz-904093_1280.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\bydgoszcz-904093_1280.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Bydgoszcz</h5>
                     <router-link to="/kluby/bydgoszcz" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\torun-419209_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\torun-419209_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Torun</h5>
                     <router-link to="/kluby/torun" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\krasnoyarsk-6921747_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\krasnoyarsk-6921747_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Bialystok</h5>
                     <router-link to="/kluby/bialystok" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\poznan-1670738_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\poznan-1670738_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Poznan</h5>
                     <router-link to="/kluby/poznan" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\warsaw-996626_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\warsaw-996626_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Warszawa</h5>
                     <router-link to="/kluby/warszawa" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\pollution-4796858_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\pollution-4796858_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Lodz</h5>
                     <router-link to="/kluby/lodz" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\view-of-the-city-994220_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\view-of-the-city-994220_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Lublin</h5>
                     <router-link to="/kluby/lublin" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\old-town-5062333_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\old-town-5062333_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Wroclaw</h5>
                     <router-link to="/kluby/wroclaw" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\kielce-3776754_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\kielce-3776754_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Kielce</h5>
                     <router-link to="/kluby/kielce" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\katowice-2632551_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\katowice-2632551_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Katowice</h5>
                     <router-link to="/kluby/katowice" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\city-3669040_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\city-3669040_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Rzeszow</h5>
                     <router-link to="/kluby/rzeszow" class="yg-btn">Informacje</router-link>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src="@\assets\img\clubs\church-5541729_1920.jpg" class="d-block w-100 carousel-image" alt="...">
+                <img src="@\assets\img\clubs\church-5541729_1920.webp" class="d-block w-100 carousel-image" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Krakow</h5>
                     <router-link to="/kluby/krakow" class="yg-btn">Informacje</router-link>
