@@ -74,7 +74,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
         <div class="box">
             <h2>Nasze Kluby</h2>
             <img class="background-image" src="@\assets\img\about\waves_dark.svg" alt="">
-            <router-link to="#" class="yg-btn">Zobacz wszystkie</router-link>
+            <router-link to="/kluby" class="yg-btn">Zobacz wszystkie</router-link>
         </div>
         <img class="gymgirl" src="@\assets\img\about\girlgym.png" alt="gym girl">
     </div>
