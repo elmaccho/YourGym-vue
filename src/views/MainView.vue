@@ -20,7 +20,7 @@
         <About id="about"/>
         <Offert id="offert"/>
         <Tickets id="tickets"/>
-        <Gallery id="gallery"/>
+        <Gallery/>
         <Contact id="contact" />
     </main>
     <footer>
