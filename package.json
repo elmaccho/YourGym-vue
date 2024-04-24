@@ -12,7 +12,9 @@
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
