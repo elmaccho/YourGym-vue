@@ -104,7 +104,7 @@
                     <a class="nav-link" :class="{ active: activeSection === 'contact' }" href="#contact">Kontakt</a>
                 </li>
                 <li class="nav-link">
-                    <a class="yg-btn" href="#login">Logowanie</a>
+                    <router-link class="yg-btn" to="/logowanie">Logowanie</router-link>
                 </li>
             </ul>
         </div>

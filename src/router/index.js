@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MainView from '@/views/MainView.vue'
-import OffertView from '@/views/OffertView.vue'
 import SilowniaView from '@/views/offert/SilowniaView.vue'
 import FitnessView from '@/views/offert/FitnessView.vue'
 import SquashView from '@/views/offert/SquashView.vue'
@@ -11,8 +10,8 @@ import TicketMorning from '@/views/tickets/Morning.vue'
 import TicketOpen from '@/views/tickets/Open.vue'
 import TicketFree from '@/views/tickets/Free.vue'
 import Purchase from '@/views/purchase/Purchase.vue'
+
 import ClubsList from '@/views/ClubsList.vue'
-import Clubs from '@/components/Clubs.vue'
 import Warszawa from '@/views/clubs/Warszawa.vue'
 import Gdansk from '@/views/clubs/Gdansk.vue'
 import Olsztyn from '@/views/clubs/Olsztyn.vue'
@@ -29,6 +28,9 @@ import Katowice from '@/views/clubs/Katowice.vue'
 import Rzeszow from '@/views/clubs/Rzeszow.vue'
 import Krakow from '@/views/clubs/Krakow.vue'
 
+import LoginView from '@/views/LoginView.vue'
+import RegisterView from '@/views/RegisterView.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -36,14 +38,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: MainView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/oferta',
@@ -199,6 +193,16 @@ const router = createRouter({
           component: Krakow
         }
       ]
+    },
+    {
+      path: '/logowanie',
+      name: 'login',
+      component: LoginView
+    },
+    {
+      path: '/rejestracja',
+      name: 'register',
+      component: RegisterView
     }
   ]
 })

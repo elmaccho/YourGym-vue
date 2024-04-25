@@ -48,7 +48,7 @@
                         <router-link to="/" class="nav-link">Wróć na stronę główną</router-link>
                     </li>
                     <li class="nav-link">
-                        <a class="yg-btn" href="#login">Logowanie</a>
+                        <router-link class="yg-btn" to="/logowanie">Logowanie</router-link>
                     </li>
                 </ul>
             </div>
@@ -186,7 +186,7 @@
         top: 0px;
         right: 0px;
     }
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 550px) {
         .close-navbar-btn,
         .open-navbar-btn
         {
