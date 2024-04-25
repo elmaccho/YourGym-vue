@@ -1,15 +1,15 @@
 <script setup></script>
 <template>
     <div class="about-container">
-        <div class="image-container">
+        <div class="image-container" data-aos="fade-right" data-aos-once="true">
             <img class="about-image" src="@\assets\img\about\pexels-andres-ayrton-6551074-_1_.webp" alt="about us image">
             <img class="about-waves" src="@\assets\img\about\waves_dark.svg" alt="waves svg">
         </div>
         <div class="text-container">
-            <div class="title">
+            <div class="title" data-aos="fade-up" data-aos-once="true">
                 <h2>O nas</h2>
             </div>
-            <div class="description">
+            <div class="description" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                 <p>
                     <strong class="yg-main">YourGym</strong> to największa sieć siłowni w Polsce, oferująca różnorodne usługi fitnessowe
                     dla wszystkich. Dzięki profesjonalnemu podejściu, innowacjom i przyjaznej atmosferze, przyciąga zarówno doświadczonych 
