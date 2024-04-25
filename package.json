@@ -27,7 +27,6 @@
     "sweetalert2": "^11.10.8",
     "vee-validate": "^4.12.6",
     "vue": "^3.4.21",
-    "vue-kinesis": "^2.0.5",
     "vue-router": "^4.3.0",
     "yup": "^1.4.0"
   },

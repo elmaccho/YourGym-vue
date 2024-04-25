@@ -70,9 +70,9 @@
             </a>
             <ul class="navbar-links">
                 <li class="dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="nav-link dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Nasze Kluby
-                    </a>
+                    </button>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><router-link to="/kluby/gdansk" class="dropdown-item">Gdańsk</router-link></li>
                         <li><router-link to="/kluby/olsztyn" class="dropdown-item">Olsztyn</router-link></li>
