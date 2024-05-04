@@ -36,7 +36,7 @@
             </div>
             <div class="icons">
                 <div class="letter" data-aos="zoom-in-up">
-                    <img class="letter" src="@\assets\img\contact\Group 42.svg" alt="list">
+                    <img src="@\assets\img\contact\Group 42.svg" alt="list">
                 </div>
                 <div class="rectangle1 rectangle" data-aos="fade-left"></div>
                 <div class="rectangle2 rectangle" data-aos="fade-left" data-aos-delay="300"></div>
@@ -223,9 +223,6 @@
         border: 7px solid #ff9151;
 
         
-    }
-    .letter{
-        cursor: pointer;
     }
     @media screen and (max-width: 1141px) {
         .uppertext{

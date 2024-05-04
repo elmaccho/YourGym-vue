@@ -268,7 +268,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
     color: white;
     width: max-content;
     text-align: center;
-    font-size: 70px;    
+    font-size: 55px;    
     font-family: Venite Adoremus Regular;
     z-index: 2;
     width: 200px;

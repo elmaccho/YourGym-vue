@@ -4,7 +4,8 @@
 
     import { Field, Form, ErrorMessage } from 'vee-validate'
     import { ref } from 'vue';
-    import * as yup from 'yup'
+    import * as yup from 'yup';
+    import router from '@/router';
 
     const form = ref(null);
     const formValues = ref();
@@ -15,7 +16,9 @@
         password: yup.string().required('To pole jest wymagane!'),
         rpassword: yup.string().oneOf([yup.ref('password'), null], 'Hasła muszą się zgadzać!')
     });
-
+    const onSubmit = () => {
+        router.push('/logowanie')
+    }
 </script>
 <template>
     <ReturnNavbar/>
@@ -24,7 +27,7 @@
             <img src="@\assets\img\header\yourgymlogo-1.webp" alt="YourGym logo">
         </div>
         <div class="form-wrapper">
-            <h2 class="title mb-4">Register</h2>
+            <h2 class="title mb-4">Rejestracja</h2>
             <Form :validation-schema="schema" @submit="onSubmit" :initial-values="formValues">
                 <Field class="form-control" type="text" name="name" placeholder="Imię" />
                 <ErrorMessage class="text-danger error-message" name="name" />
