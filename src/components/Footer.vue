@@ -34,7 +34,7 @@
             <div class="brand-info-wrapper">
                 <span class="d-flex align-items-center gap-3 brand-wrapper">
                     <img src="@\assets\img\header\yourgymlogo-1.webp" class="mb-3 footer-brand-logo" alt="brand logo">
-                    <h1 class="footer-brand-name"><strong class="yg-main">YourGym</strong><br> Fitness Club</h1>
+                    <h1 class="footer-brand-name"><b class="yg-main">YourGym</b><br> Fitness Club</h1>
                 </span>
     
                 <div class="contact-box">

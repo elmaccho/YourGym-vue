@@ -10,28 +10,28 @@
         <div class="ticket-name mb-5">
             <FontAwesomeIcon :icon="faClock" class="ticket-icon mb-3"/>
             <div class="ticket-price mb-2">
-                <span><strong>129,00 zł</strong><span class="length">/ miesiąc</span></span>
+                <span><b>129,00 zł</b><span class="length">/ miesiąc</span></span>
             </div>
             <div class="ticket-title">
-                Karnet <strong>RANO</strong>
+                Karnet <b>RANO</b>
             </div>
             <div class="background-highlight"></div>
         </div>
         <div class="ticket-info">
             <div class="ticket-row">
-                <span class="ticket-description"><p>Opłata wpisowa:</p><strong>39 PLN</strong></span>
+                <span class="ticket-description"><p>Opłata wpisowa:</p><b>39 PLN</b></span>
                 <hr>
             </div>
             <div class="ticket-row">
-                <span class="ticket-description"><p>Nielimitowany dostęp 24h:</p><strong>NIE</strong></span>
+                <span class="ticket-description"><p>Nielimitowany dostęp 24h:</p><b>NIE</b></span>
                 <hr>
             </div>
             <div class="ticket-row">
-                <span class="ticket-description"><p>Zajęcia grupowe w cenie:</p><strong>TAK</strong></span>
+                <span class="ticket-description"><p>Zajęcia grupowe w cenie:</p><b>TAK</b></span>
                 <hr>
             </div>
             <div class="ticket-row mb-3">
-                <span class="ticket-description"><p>Możliwość zamrożenia karnetu:</p><strong>TAK</strong></span>
+                <span class="ticket-description"><p>Możliwość zamrożenia karnetu:</p><b>TAK</b></span>
                 <hr>
             </div>
 
@@ -102,7 +102,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .ticket-description > p,strong{
+    .ticket-description > p,b{
         margin: 0;
         color: white;
     }

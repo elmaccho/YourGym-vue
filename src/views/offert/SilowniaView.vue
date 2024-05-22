@@ -23,21 +23,21 @@
                     Nasi doświadczeni trenerzy oferują różnorodne treningi, dopasowane do indywidualnych 
                     potrzeb i poziomu kondycji każdego klienta. Oto kilka rodzajów treningów, które możemy zaoferować:
                 </p>
-                <strong>
+                <b>
                     Trening siłowy
-                </strong>
-                <strong>
+                </b>
+                <b>
                     Trening funkcjonalny
-                </strong>
-                <strong>
+                </b>
+                <b>
                     Trening cardio
-                </strong>
-                <strong>
+                </b>
+                <b>
                     Zajęcia grupowe
-                </strong>
-                <strong>
+                </b>
+                <b>
                     Trening personalny
-                </strong>
+                </b>
             </div>
         </div>
     </div>

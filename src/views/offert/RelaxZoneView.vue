@@ -24,13 +24,13 @@
                 </p>
                 <ul>
                     <li class="mb-3">
-                        <strong>Saunę parową:</strong> Idealną do oczyszczenia skóry i uwalniania napięcia mięśniowego. Sauna parowa pomaga w relaksie i poprawie krążenia krwi.
+                        <b>Saunę parową:</b> Idealną do oczyszczenia skóry i uwalniania napięcia mięśniowego. Sauna parowa pomaga w relaksie i poprawie krążenia krwi.
                     </li>
                     <li class="mb-3">
-                        <strong>Saunę suchą:</strong> Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację toksyn i przynosi ulgę dla mięśni.
+                        <b>Saunę suchą:</b> Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację toksyn i przynosi ulgę dla mięśni.
                     </li>
                     <li class="mb-3">
-                        <strong>Pokój masażu:</strong> Gdzie nasi wykwalifikowani masażysci oferują różnorodne masaże, które pomagają w złagodzeniu napięcia, redukcji bólu mięśniowego i poprawie elastyczności.
+                        <b>Pokój masażu:</b> Gdzie nasi wykwalifikowani masażysci oferują różnorodne masaże, które pomagają w złagodzeniu napięcia, redukcji bólu mięśniowego i poprawie elastyczności.
                     </li>
                 </ul>
                 <p>

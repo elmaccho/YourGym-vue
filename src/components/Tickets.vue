@@ -12,10 +12,10 @@
                 <div class="background-highlight"></div>
                 <FontAwesomeIcon :icon="faClock" class="ticket-icon mb-3"/>
                 <div class="ticket-price mb-2">
-                    <span><strong class="h3">129,00 zł</strong><span>/ miesiąc</span></span>
+                    <span><b class="h3">129,00 zł</b><span>/ miesiąc</span></span>
                 </div>
                 <div class="ticket-title mb-2">
-                    <span>Karnet <strong>RANO</strong></span>
+                    <span>Karnet <b>RANO</b></span>
                 </div>
                 <div class="ticket-description mb-5">
                     <p>
@@ -28,10 +28,10 @@
             <div class="ticket-box" data-aos="zoom-in-up" data-aos-delay="400">
                 <FontAwesomeIcon :icon="faChildReaching" class="ticket-icon mb-3"/>
                 <div class="ticket-price mb-2">
-                    <span><strong class="h3">159,00 zł</strong><span>/ miesiąc</span></span>
+                    <span><b class="h3">159,00 zł</b><span>/ miesiąc</span></span>
                 </div>
                 <div class="ticket-title mb-2">
-                    <span>Karnet <strong>OPEN</strong></span>
+                    <span>Karnet <b>OPEN</b></span>
                 </div>
                 <div class="ticket-description mb-5">
                     <p>
@@ -46,10 +46,10 @@
                 <div class="background-highlight"></div>
                     <FontAwesomeIcon :icon="faTag" class="ticket-icon mb-3"/>
                 <div class="ticket-price mb-2">
-                    <span><strong class="h3">0,00 zł</strong><span>/ 7 dni</span></span>
+                    <span><b class="h3">0,00 zł</b><span>/ 7 dni</span></span>
                 </div>
                 <div class="ticket-title mb-2">
-                    <span><strong>Wypróbuj siłownie!</strong></span>
+                    <span><b>Wypróbuj siłownie!</b></span>
                 </div>
                 <div class="ticket-description mb-5">
                     <p>

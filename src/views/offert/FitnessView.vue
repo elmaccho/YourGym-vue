@@ -23,19 +23,19 @@
                 </p>
                 <ul>
                     <li class="mb-3">
-                        <strong>Aerobik i cardio:</strong> Zajęcia oparte na dynamicznych ruchach, które poprawiają wytrzymałość sercowo-naczyniową i spalają kalorie. Może to obejmować choreografię, kroki taneczne lub interwały na przyrządach cardio.
+                        <b>Aerobik i cardio:</b> Zajęcia oparte na dynamicznych ruchach, które poprawiają wytrzymałość sercowo-naczyniową i spalają kalorie. Może to obejmować choreografię, kroki taneczne lub interwały na przyrządach cardio.
                     </li>
                     <li class="mb-3">
-                        <strong>Trening siłowy:</strong> Zajęcia koncentrujące się na wzmacnianiu mięśni za pomocą obciążeń takich jak hantle, sztangi, gumowe opaski czy waga ciała. Celem jest zwiększenie siły, wytrzymałości oraz kształtowanie sylwetki.
+                        <b>Trening siłowy:</b> Zajęcia koncentrujące się na wzmacnianiu mięśni za pomocą obciążeń takich jak hantle, sztangi, gumowe opaski czy waga ciała. Celem jest zwiększenie siły, wytrzymałości oraz kształtowanie sylwetki.
                     </li>
                     <li class="mb-3">
-                        <strong>Pilates i stretching:</strong> Zajęcia skupiające się na poprawie elastyczności, równowagi i siły mięśni głębokich, wzmacniając przy tym mięśnie rdzenia.
+                        <b>Pilates i stretching:</b> Zajęcia skupiające się na poprawie elastyczności, równowagi i siły mięśni głębokich, wzmacniając przy tym mięśnie rdzenia.
                     </li>
                     <li class="mb-3">
-                        <strong>Zajęcia interwałowe:</strong> Trening oparty na intensywnych okresach wysiłku z krótkimi przerwami, mający na celu poprawę wydolności fizycznej i spalanie tkanki tłuszczowej.
+                        <b>Zajęcia interwałowe:</b> Trening oparty na intensywnych okresach wysiłku z krótkimi przerwami, mający na celu poprawę wydolności fizycznej i spalanie tkanki tłuszczowej.
                     </li>
                     <li>
-                        <strong>Zajęcia funkcjonalne:</strong> Ćwiczenia angażujące całe ciało, które poprawiają kondycję ogólną, siłę i sprawność funkcjonalną.
+                        <b>Zajęcia funkcjonalne:</b> Ćwiczenia angażujące całe ciało, które poprawiają kondycję ogólną, siłę i sprawność funkcjonalną.
                     </li>
                 </ul>
             </div>

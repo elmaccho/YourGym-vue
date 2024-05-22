@@ -25,9 +25,9 @@
                     Ale to nie wszystko! Zajęcia na rowerze pomagają również wyrzeźbić mięśnie pośladków i nóg, co sprawia, że czujesz się 
                     pewniej. Nasze zajęcia indoor cycling są dostosowane do wszystkich poziomów umiejętności.
                 </p>
-                <strong>
+                <b>
                     Dołącz do nas na zajęciach i przekonaj się, że warto!
-                </strong>
+                </b>
             </div>
         </div>
     </div>

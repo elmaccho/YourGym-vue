@@ -10,32 +10,32 @@
         <div class="ticket-name mb-5">
             <FontAwesomeIcon :icon="faTag" class="ticket-icon mb-3"/>
             <div class="ticket-price mb-2">
-                <span><strong>0,00 zł</strong><span class="length">/ 7 dni</span></span>
+                <span><b>0,00 zł</b><span class="length">/ 7 dni</span></span>
             </div>
             <div class="ticket-title">
-                Karnet <strong>FREE</strong>
+                Karnet <b>FREE</b>
             </div>
             <div class="background-highlight"></div>
         </div>
         <div class="ticket-info">
             <div class="ticket-row">
-                <span class="ticket-description"><p>Opłata wpisowa:</p><strong>0 PLN</strong></span>
+                <span class="ticket-description"><p>Opłata wpisowa:</p><b>0 PLN</b></span>
                 <hr>
             </div>
             <div class="ticket-row">
-                <span class="ticket-description"><p>Nielimitowany dostęp 24h:</p><strong>TAK</strong></span>
+                <span class="ticket-description"><p>Nielimitowany dostęp 24h:</p><b>TAK</b></span>
                 <hr>
             </div>
             <div class="ticket-row">
-                <span class="ticket-description"><p>Zajęcia grupowe w cenie:</p><strong>TAK</strong></span>
+                <span class="ticket-description"><p>Zajęcia grupowe w cenie:</p><b>TAK</b></span>
                 <hr>
             </div>
             <div class="ticket-row mb-3">
-                <span class="ticket-description"><p>Możliwość zamrożenia karnetu:</p><strong>NIE</strong></span>
+                <span class="ticket-description"><p>Możliwość zamrożenia karnetu:</p><b>NIE</b></span>
                 <hr>
             </div>
             <div class="ticket-row mb-3">
-                <span class="ticket-description"><strong>MOŻLIWY DO WYKORZYSTANIA RAZ W ROKU</strong></span>
+                <span class="ticket-description"><b>MOŻLIWY DO WYKORZYSTANIA RAZ W ROKU</b></span>
             </div>
 
             <router-link to="/zakup" class="yg-btn">Kup Karnet</router-link>
@@ -105,7 +105,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .ticket-description > p,strong{
+    .ticket-description > p,b{
         margin: 0;
         color: white;
     }
