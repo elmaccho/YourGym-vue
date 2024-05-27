@@ -4,7 +4,7 @@
   font-family: 'Venite Adoremus Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Venite Adoremus Regular'), url('@\fonts\VeniteAdoremus-rgRBA.woff') format('woff');
+  src: local('Venite Adoremus Regular'), url('public/fonts/VeniteAdoremus-rgRBA.woff') format('woff');
   }
   
 
@@ -12,7 +12,7 @@
   font-family: 'Venite Adoremus Straight Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Venite Adoremus Straight Regular'), url('public\fonts\VeniteAdoremusStraight-Yzo6v.woff') format('woff');
+  src: local('Venite Adoremus Straight Regular'), url('public/fonts/VeniteAdoremusStraight-Yzo6v.woff') format('woff');
   }
 
 @keyframes imagePulse {
