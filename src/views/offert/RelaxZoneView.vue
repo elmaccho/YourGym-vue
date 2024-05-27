@@ -1,83 +1,188 @@
 <script setup>
-    import ReturnNavbar from '@/components/ReturnNavbar.vue';
-    import Footer from '@/components/Footer.vue';
+import ReturnNavbar from '@/components/ReturnNavbar.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 <template>
-    <ReturnNavbar />
-    <div class="p-3">
-        <div class="main-content">
-            <div class="image-container">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-anete-lusina-5240640.webp" alt="">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-heyho-8092430.webp" alt="">
-                <img class="offert-img" src="@\assets\img\offert\subpage\pexels-ron-lach-9165662.webp" alt="">
-            </div>
-            <div class="text-container">
-                <h1 class="title-page">
-                    Strefa relaksu
-                </h1>
-                <p>
-                    Zapewniamy również strefę relaksu w YourGym, gdzie możesz zregenerować 
-                    ciało i umysł po intensywnym treningu. Nasza strefa relaksu obejmuje:
-                </p>
-                <p>
-                    Podczas zajęć fitness skupiamy się na różnych aspektach treningu, takich jak:
-                </p>
-                <ul>
-                    <li class="mb-3">
-                        <b>Saunę parową:</b> Idealną do oczyszczenia skóry i uwalniania napięcia mięśniowego. Sauna parowa pomaga w relaksie i poprawie krążenia krwi.
-                    </li>
-                    <li class="mb-3">
-                        <b>Saunę suchą:</b> Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację toksyn i przynosi ulgę dla mięśni.
-                    </li>
-                    <li class="mb-3">
-                        <b>Pokój masażu:</b> Gdzie nasi wykwalifikowani masażysci oferują różnorodne masaże, które pomagają w złagodzeniu napięcia, redukcji bólu mięśniowego i poprawie elastyczności.
-                    </li>
-                </ul>
-                <p>
-                    Poza tym, w naszej strefie relaksu znajdziesz spokojną atmosferę sprzyjającą regeneracji. 
-                    To idealne miejsce, aby zadbać o swoje ciało po treningu i zregenerować się przed powrotem do codziennych zajęć.
-                </p>
-            </div>
-        </div>
+  <ReturnNavbar />
+  <div class="p-3">
+    <div class="main-content">
+    <div class="title-row">
+        <h2>Strefa Relaksu</h2>
+        <p>Zapewniamy również strefę relaksu w YourGym, gdzie możesz zregenerować ciało i umysł po intensywnym treningu.</p>
     </div>
-    <Footer/>
+      <div class="offert-row" data-aos="fade-up" data-aos-delay="100">
+        <div class="image-container">
+          <img
+            class="offert-img"
+            src="@\assets\img\offert\subpage\pexels-heyho-8092430.webp"
+            alt=""
+          />
+          <div class="waves-background">
+            <img src="@\assets\img\about\waves_dark.svg" alt="" />
+          </div>
+        </div>
+        <div class="text-container">
+          <h3>Sauna Sucha</h3>
+          <p>
+            Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację
+            toksyn i przynosi ulgę dla mięśni.
+          </p>
+        </div>
+      </div>
+      <div class="offert-row" data-aos="fade-up" data-aos-delay="100">
+        <div class="image-container">
+          <img
+            class="offert-img"
+            src="@\assets\img\offert\subpage\pexels-ron-lach-9165662.webp"
+            alt=""
+          />
+          <div class="waves-background">
+            <img src="@\assets\img\about\waves_dark.svg" alt="" />
+          </div>
+        </div>
+        <div class="text-container">
+          <h3>Sauna Sucha</h3>
+          <p>
+            Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację
+            toksyn i przynosi ulgę dla mięśni.
+          </p>
+        </div>
+      </div>
+      <div class="offert-row" data-aos="fade-up" data-aos-delay="100">
+        <div class="image-container">
+          <img
+            class="offert-img"
+            src="@\assets\img\offert\subpage\pexels-anete-lusina-5240640.webp"
+            alt=""
+          />
+          <div class="waves-background">
+            <img src="@\assets\img\about\waves_dark.svg" alt="" />
+          </div>
+        </div>
+        <div class="text-container">
+          <h3>Sauna Sucha</h3>
+          <p>
+            Zapewniającą głębokie odprężenie poprzez suchą ciepło. Sauna sucha wspomaga eliminację
+            toksyn i przynosi ulgę dla mięśni.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <Footer />
 </template>
 <style scoped>
     .main-content{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 45px;   
+        padding: 0 35px;
     }
-    .image-container{
+    .title-row{
+        color: white
+    }
+    .title-row h2{
+        font-size: 80px;
+        font-weight: 700;
+    }
+    .title-row p{
+        font-size: 25px;
+        width: 80%;
+    }
+    .offert-row {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
     }
-    .offert-img{
-        width: 300px;
+    .offert-row:nth-child(2n+1){
+        flex-direction: row-reverse;
+    }
+    .image-container,
+    .waves-background {
+        width: 500px;
         height: 300px;
+        position: relative;
+    }
+    .image-container img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
+    .waves-background {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: -1;
+    }
     .text-container{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
         color: white;
     }
-    .title-page{
-        font-weight: 700;
-        font-size: 80px;
+    .text-container p{
+        max-width: 400px;
     }
-    @media screen and (max-width: 720px) {
-        .image-container{
-            display: flex;
-            flex-wrap: unset;
+    .footer-container{
+        padding-top: unset;
+        margin-top: 100px;
+    }
+    @media screen and (max-width: 1015px){
+        .image-container,
+        .waves-background {
+            width: 400px;
+            height: 300px;
+            position: relative;
+        }
+        .waves-background {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .text-container p{
+            max-width: 350px;
+        }
+    }
+    @media screen and (max-width: 805px){
+        .offert-row:nth-child(2n+1){
             flex-direction: column;
         }
-        .offert-img{
+        .offert-row{
+            flex-direction: column;
+            align-items: center;
+            gap: 45px;
+        }
+    }
+    @media screen and (max-width: 665px) {
+        .title-row h2{
+            font-size: 52px;
+            font-weight: 700;
+        }
+    }
+    @media screen and (max-width: 490px){
+        .title-row{
+            margin-top: 45px;
+        }
+        .title-row h2{
+            font-size: 32px;
+            text-align: center;
+        }
+        .title-row p{
+            font-size: 20px;
+            text-align: justify;
             width: 100%;
+        }
+        .text-container p{
+            max-width: 330px;
+        }
+        .image-container,
+        .waves-background {
+            width: 80%;
+            min-width: 330px;
             height: 200px;
-            object-fit: cover;
+            position: relative;
+        }
+        .waves-background {
+            position: absolute;
+            left: 10px;
+            top: 10px;
         }
     }
 </style>

@@ -57,7 +57,10 @@
   margin: 0;
   font-weight: normal;
 }
-
+@font-face {
+  font-family: Venite;
+  src: url(/public/fonts/VeniteAdoremusStraight-Yzo6v.woff);
+}
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -78,7 +81,8 @@ body {
     'Fira Sans',
     'Droid Sans',
     'Helvetica Neue',
-    sans-serif;
+    sans-serif,
+    Venite;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

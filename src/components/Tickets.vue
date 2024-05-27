@@ -76,7 +76,7 @@
     }
     .tickets-container > .section-title{
         position: relative;
-        font-family: Venite Adoremus Straight Regular;
+        font-family: Venite;
         color: white;
         font-size: 70px;
         text-align: center;

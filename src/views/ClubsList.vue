@@ -148,7 +148,7 @@
     .title{
         font-size: 42px;
         margin: 25px 0;
-        font-family: Venite Adoremus Straight Regular;
+        font-family: Venite;
         color: white;
         text-align: center;
     }
@@ -163,7 +163,7 @@
         bottom: 50px;
     }
     .carousel-caption > h5{
-        font-family: Venite Adoremus Straight Regular;
+        font-family: Venite;
         font-size: 25px !important;
     }
     .carousel-image{

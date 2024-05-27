@@ -269,7 +269,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
     width: max-content;
     text-align: center;
     font-size: 55px;    
-    font-family: Venite Adoremus Straight Regular;
+    font-family: Venite;
     z-index: 2;
     width: 200px;
 }
@@ -323,7 +323,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
         width: max-content;
         text-align: center;
         font-size: 70px;    
-        font-family: Venite Adoremus Straight Regular;
+        font-family: Venite;
         z-index: 2;
         width: auto;
     }

@@ -48,7 +48,7 @@
     .title > h2{
         font-size: 70px;
         color: white;
-        font-family: Venite Adoremus Straight Regular;
+        font-family: Venite;
     }
     .description > p {
         color: white;

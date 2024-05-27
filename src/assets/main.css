@@ -1,41 +1,45 @@
 @import './base.css';
 
-@font-face {
+/* @font-face {
   font-family: 'Venite Adoremus Regular';
   font-style: normal;
   font-weight: normal;
   src: local('Venite Adoremus Regular'), url('public/fonts/VeniteAdoremus-rgRBA.woff') format('woff');
-  }
-  
+}
 
-  @font-face {
+
+@font-face {
   font-family: 'Venite Adoremus Straight Regular';
   font-style: normal;
   font-weight: normal;
   src: local('Venite Adoremus Straight Regular'), url('public/fonts/VeniteAdoremusStraight-Yzo6v.woff') format('woff');
-  }
+} */
 
 @keyframes imagePulse {
-  0%{
-      background-color: #232323;
+  0% {
+    background-color: #232323;
   }
-  50%{
-      background-color: #232323d0;
+
+  50% {
+    background-color: #232323d0;
   }
-  100%{
-      background-color: #232323;
+
+  100% {
+    background-color: #232323;
   }
 }
 
-body{
+body {
   scroll-behavior: smooth;
-  background: rgb(35,35,35);
-  background: linear-gradient(180deg, rgb(19, 19, 19) 80%, rgba(0,0,0,1) 100%);
+  background: rgb(35, 35, 35);
+  background: linear-gradient(180deg, rgb(19, 19, 19) 80%, rgba(0, 0, 0, 1) 100%);
 }
-.yg-main{
+
+.yg-main {
   color: #F35B00;
 }
-.yg-btn{
+
+.yg-btn {
   text-decoration: none;
   color: white !important;
   padding: 8px 20px;
@@ -43,7 +47,8 @@ body{
   position: relative;
   z-index: 1;
 }
-.yg-btn::before{
+
+.yg-btn::before {
   background-color: #F35B00;
   content: '';
   position: absolute;
@@ -54,7 +59,8 @@ body{
   z-index: -1;
   transition: 0.3s;
 }
-.yg-btn::after{
+
+.yg-btn::after {
   content: '';
   border: 2px solid #c94e06;
   position: absolute;
@@ -65,11 +71,13 @@ body{
   transition: 0.3s;
   z-index: -2;
 }
-.yg-btn:hover::after{
+
+.yg-btn:hover::after {
   top: 5px;
   right: 5px;
 }
-.yg-btn:hover::before{
+
+.yg-btn:hover::before {
   top: 0px;
   right: 0px;
 }
@@ -81,13 +89,13 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: #232323 !important; 
+  background: #232323 !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #F35B00; 
+  background: #F35B00;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c94e06; 
+  background: #c94e06;
 }
