@@ -91,7 +91,7 @@ import Footer from '@/components/Footer.vue'
     }
     .offert-row {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     .offert-row:nth-child(2n+1){

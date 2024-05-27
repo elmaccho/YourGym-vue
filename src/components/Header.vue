@@ -1,7 +1,3 @@
-<script setup>
-// import AOS from "aos";
-// import 'aos/dist/aos.css';
-</script>
 <template>
     <div class="brand-logo-wrapper" data-aos="fade">
         <img src="@/assets/img/header/yourgymlogo-1.webp" alt="Brand Logo">

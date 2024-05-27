@@ -28,9 +28,6 @@
     </footer>
 </template>
 <style scoped>
-
-    /* DO WYRZUCENIA */
-
     .header{
         display: block;
         height: 90vh;
@@ -42,6 +39,9 @@
         align-items: center;
         justify-content: space-around;
         overflow: hidden;
+    }
+    .footer-container{
+        padding-top: 100px;
     }
     @media screen and (max-width: 850px) {
         .header{
