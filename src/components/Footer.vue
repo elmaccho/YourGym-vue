@@ -29,7 +29,8 @@ const scrollToSection = (sectionId) => {
     <div class="footer-container">
         <div class="footer-content">
             <div class="map-location">
-                <img src="@/assets/img/footer/das.jpg" alt="Lokalizacja siłowni">
+                <!-- <img src="@/assets/img/footer/das.jpg" alt="Lokalizacja siłowni"> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d513.9252041375793!2d20.94971851228989!3d52.21333424667442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecb572c041cc9%3A0xb72de3443923b5e8!2sal.%20Jerozolimskie%20148%2C%2002-326%20Warszawa!5e0!3m2!1spl!2spl!4v1716922933424!5m2!1spl!2spl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="brand-info-wrapper">
                 <div class="d-flex align-items-center gap-3 brand-wrapper">
@@ -80,7 +81,7 @@ const scrollToSection = (sectionId) => {
             </div>
         </div>
         <div class="copyright-bar">
-            MACIEJ CHOJNACKI COPYRIGHT 2023. ALL RIGHTS RESERVED
+            © 2024 YourGym. All rights reserved. (strona fikcyjna)
         </div>
     </div>
 </template>
